@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>兰州瀚祥</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  	<title>兰州瀚祥</title>
 	<!--CSS的引入-->
 	<link rel="stylesheet" href="css/animate.min.css" />
-	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css"/>
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style_child.css"/>
 	<link rel="stylesheet" href="css/flexslider.css" />
 	<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.6.3/css/font-awesome.css"/>
 	<link rel="stylesheet" href="css/prettyPhoto.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 	<link href="favicon.ico" rel="shortcut icon">
+	 <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+  <![endif]-->
 </head>
 <body data-spy="scroll" data-target=".nav-menu" data-offset="50">
 	<!--加载页面-->
@@ -38,193 +43,197 @@
 		<div class=" main">
 			<div id="main" class="flexslider home-slider">
 				<ul class="home-slides">
-					<!--<li>兰州<span>瀚祥</span></li>
-					<li>无人机<span>地面站</span></li>
-					<li>大疆无人机<span>实践者</span></li>-->
-					<li>兰州瀚祥</li>
-					<li>无人机地面站</li>
-					<li>大疆无人机实践者</li>
+					<li><span>兰州瀚祥</span></li>
+					<li><span>无人机地面站</span></li>
+					<li><span>大疆无人机实践者</span></li>
 				</ul>
 				<div class="clear"></div>				
 			</div>
-			<a href="#about" class="fa fa-angle-down page-scroll"> </a>
+			<a href="#blog" class="fa fa-angle-down page-scroll"> </a>
 		</div>		
 	</section>
 	
 	<!--菜单栏-->
-	<section id="navigation">
-	
+	<section id="navigation">	
 		<div class="inner navigation">
 			<div class="logo">
 				<a class="scroll" href="#home"><img src="images/logo.png" alt="Logo" /></a>
 			</div>			
 			<nav class="nav-menu">				
 				<ul class="nav main-nav">				
-					<li class="active"><a class="scroll" href="#home">首页</a></li>
-					<li><a class="scroll" href="#about">关于我们</a></li>
+					<li><a class="scroll" href="#home">首页</a></li>
+					<li><a class="scroll" href="#blog">地面站产品</a></li>
+					<li><a class="scroll" href="#prices">行业解决方案</a></li>
 					<li><a class="scroll" href="#services">数据服务</a></li>
-					<li><a class="scroll" href="#prices">解决方案</a></li>
-					<li><a class="scroll" href="#gmap">无人机找回</a></li>
-					<li><a class="scroll" href="#contact">联系我们</a></li>
-				</ul>
-				
+					<li><a class="scroll" href="#about">关于瀚祥智能</a></li>
+					<li><a class="scroll" href="#" target="_blank">论坛</a></li>
+				</ul>				
 			</nav>
-			<!-- Dropdown Menu For Mobile Devices-->
 				<nav class="dropdown mobile-drop">
 				  <a data-toggle="dropdown" class="mobile-menu" href="#"><i class="fa fa-bars"></i></a>
 				  <ul class="nav dropdown-menu fullwidth" role="menu">
-					<li class="active"><a class="scroll" href="#home">首页</a></li>
-					<li><a class="scroll" href="#about">关于我们</a></li>
+				  	<li><a class="scroll" href="#home">首页</a></li>
+					<li><a class="scroll" href="#blog">地面站产品</a></li>
+					<li><a class="scroll" href="#prices">行业解决方案</a></li>
 					<li><a class="scroll" href="#services">数据服务</a></li>
-					<li><a class="scroll" href="#prices">解决方案</a></li>
-					<li><a class="scroll" href="#gmap">无人机找回</a></li>
-					<li><a class="scroll" href="#contact">联系我们</a></li>
+					<li><a class="scroll" href="#about">关于瀚祥智能</a></li>
+					<li><a class="scroll" href="#" target="_blank">论坛</a></li>
 				  </ul>
 				</nav>
 		</div>
 	
 	</section>
-	
-	<!--关于我们-->
-	<section id="about" class="contain nav-link">
+	<!--无人机地面站-->
+	<section id="blog" class="contain nav-link">
+		<div class="inner">
+			<div class="contain-logo br-b">
+				<i class="fa fa-chevron-down"></i>
+			</div>
+			<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
+				地面站产品
+			</div>
+			
+			<!-- Second Header -->
+			<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
+				兰州瀚祥电子信息工程技术有限公司（简称瀚祥智能）成立于2012年，是从事无人机软、硬件系统研发的高新技术企业，面向全国提供行业无人机智能飞行与控制解决方案。公司自主研发的无人机地面站远程控制系统及其系列软件是具有国家软件著作权的高新技术产品。 
+			</div>
+			<div class="container">
+				<div class="services-section-grids">
+					<div class="col-md-4 services-section-grid text-center span_66">
+						<i class="eye"></i>
+						<h4>精美的界面设计</h4>
+						<p>十分符合人性化的界面设计，操作简单，流程简单。人性化的界面设计，操作简单，流程简单。</p>
+					</div>
+					<div class="col-md-4 flat-phone text-center span_66">
+						<img src="images/flat-phone.jpg" alt="">
+					</div>
+					<div class="col-md-4 services-section-grid text-center span_66">
+						<i class="load"></i>
+						<h4>相应时间较短</h4>
+						<p>十分符合人性化的界面设计，操作简单，流程简单。人性化的界面设计，操作简单，流程简单。</p>
+					</div>
+					<div class="clearfix"></div>
+					<div class="col-md-4 services-section-grid span_55 text-center">
+						<i class="msg"></i>
+						<h4>十分简单的框架</h4>
+						<p>十分符合人性化的界面设计，操作简单，流程简单。人性化的界面设计，操作简单，流程简单。</p>
+					</div>
+					<div class="col-md-4 services-section-grid span_55 text-center">
+						<i class="flag"></i>
+						<h4>实践的创新</h4>
+						<p>十分符合人性化的界面设计，操作简单，流程简单。人性化的界面设计，操作简单，流程简单。</p>
+					</div>
+					<div class="col-md-4 services-section-grid span_55 text-center">
+						<i class="ok"></i>
+						<h4>完美的售后</h4>
+						<p>十分符合人性化的界面设计，操作简单，流程简单。人性化的界面设计，操作简单，流程简单。</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="container">
+				<div class="text-center">
+					<a href="product.html"><span class="fa fa-hand-o-right" style="color: #fa610f;;"></span>	更多	</a>&nbsp;&nbsp;&nbsp;<a href="product.html"><span class="fa fa-arrow-down" style="color: #fa610f;;"></span>	下载	</a>
+				</div>
+		</div>
+		<br />
+		<br />
+	</section>
+	<!--/无人机地面站-->
+	<!--解决方法-->
+	<section id="prices" class="contain nav-link">
 		
-		<div class="about inner">
-				<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
-					关于我们
+			<div class="inner prices">
+				<div class="contain-logo br">
+					<i class="fa fa-chevron-down"></i>
 				</div>
-				
-				<!-- Second Header -->
-				<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
-					兰州瀚祥电子信息工程技术有限公司（简称瀚祥智能）成立于2012年，是从事无人机软、硬件系统研发的高新技术企业，面向全国提供行业无人机智能飞行与控制解决方案。公司自主研发的无人机地面站远程控制系统及其系列软件是具有国家软件著作权的高新技术产品。
- 
-				</div>
-						<div class="row">
-							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="0">
-								<div class="bubble_outer_one">
-									<div class="bubble_container">
-										<div class="bubble"></div>
-										<i class="fa fa-thumbs-up"></i>
-									</div>
-								</div>
-								<div class="about_line"></div>
-								<article class='about_article'>
-									<h2>超赞的团队</h2>
-									<p class="about_article_title">在张文渊率领的一批专业技术软件开发人员从事大疆无人机的飞控软件开发，立志做无人行业飞控软件开发领域的实践者与开拓者，为无人机领域贡献自己的一份力量。</p>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="500">
-								<div class="bubble_outer_two">
-									<div class="bubble_container">
-										<div class="bubble"></div>
-										<i class="fa fa-envelope fa-light"></i>
-									</div>
-								</div>
-								<div class="about_line"></div>
-								<article class='about_article'>
-									<h2>定制的服务</h2>
-									<p class="about_article_title">我们接受专业的定制服务，只要你有需求，我们就会去实现，以你的想法为准则，以我们的技术为基础，为你我的共同理想保驾护航，共创美好明天。</p>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="800">
-								<div class="bubble_outer_three">
-									<div class="bubble_container">
-										<div class="bubble"></div>
-										<i class="fa fa-umbrella"></i>
-									</div>
-								</div>
-								<div class="about_line"></div>
-								<article class='about_article'>
-									<h2>完美的售后</h2>
-									<p class="about_article_title">我们对于自己负责，更对与我们的客户负责，我们售出的每一份产品我们都会为你保驾护航，负责终身，让你买的放心，用的放心，从而解决你的任何后顾之忧。</p>
-								</article>
-							</div>
-						</div>
-					
-				
-				<div class="clear"></div>
-				
-				<!-- Start Our Team Section -->
-		<div class="second-section">
+			
 				<!-- Header -->
 				<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
-					我们的团队
+					解决方法
 				</div>
 				
 				<!-- Second Header -->
 				<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
-					我们拥有强大的软件开发技术人员，和一批与我们合作开发的高校技术性科研人员，他们一直从事与自己喜欢的行业，为自己喜欢的事业贡献者自己的光和热，为无人机事业发发展奉献着自己的青春。
+					我们根据以往的定制开发经验，现已整理出如下的解决方案，正在出出售中，若有意向可致电我公司详谈，我们会以最物美价廉的价格予以出售，坚决不让你多花一分钱，让你花最少的钱，办最多的事情。 
 				</div>
+				
 				<div class="row">
-				<ul class="grid cs-style-1">
-                            
-                <li class="col-md-3 col-sm-6">
-                    <div class="figure">
-                        <img src="images/team/1.jpg" alt="MyPassion" />
-                        <div class="figcaption">
-                            <span>全栈工程师</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                        <h4>张文渊</h4>
-                        <div class="hidden">
-                        	<span>张文渊</span>
-                            <p>D高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                        
-                    </div>
-                </li>
-                
-                <li class="col-md-3 col-sm-6">
-                    <div class="figure">
-                        <img src="images/team/2.jpg" alt="MyPassion" />
-                        <div class="figcaption">
-                            <span>全栈工程师</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                        <h4>屈昭</h4>
-                        <div class="hidden">
-                        	<span>屈昭</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                    </div>
-                </li>
-                
-                <li class="col-md-3 col-sm-6">
-                    <div class="figure">
-                        <img src="images/team/3.jpg" alt="MyPassion" />
-                        <div class="figcaption">
-                            <span>运营专家</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                        <h4>李旭</h4>
-                        <div class="hidden">
-                        	<span>李旭</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                    </div>
-                </li>
-                 <li class="col-md-3 col-sm-6">
-                    <div class="figure">
-                        <img src="images/team/4.jpg" alt="MyPassion" />
-                        <div class="figcaption">
-                            <span>项目经理</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                        <h4>尤胜伟</h4>
-                        <div class="hidden">
-                        	<span>尤胜伟</span>
-                            <p>高级软件开发工程师，拥有多年软件开发经验，曾经参与过多个软件项目的研发工作。</p>
-                        </div>
-                    </div>
-                </li>
-                
-            </ul>
+                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="100">
+                      <div class="price-pack text-center clearfix">
+                          <div class="package-header"><h3>农业植保</h3></div>
+                             <div class="package-price">2000<p>永久</p></div>
+                              <div class="package-features clearfix">
+                                  <ul>
+                                      <li>1.效率高，支持自主巡检</li>
+                                      <li>2.使用成本较低</li>
+                                      <li>3.携带方便，操作简单</li>
+                                      <li>4.在雨雪天气仍可执行巡线任务</li>
+                                      <li>5.安全性高</li>
+                                      <li>6.性价比高</li>
+                                  </ul>
+                              </div>
+                              <a href="plan.html#1" class="btn border-btn">详	情</a>
+                       </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="200">
+                      <div class="price-pack text-center clearfix">
+                          <div class="package-header"><h3>火灾救援</h3></div>
+                             <div class="package-price">3500<p>永久</p></div>
+                              <div class="package-features clearfix">
+                                  <ul>
+                                      <li>1.效率高，支持自主巡检</li>
+                                      <li>2.使用成本较低</li>
+                                      <li>3.携带方便，操作简单</li>
+                                      <li>4.在雨雪天气仍可执行巡线任务</li>
+                                      <li>5.安全性高</li>
+                                      <li>6.性价比高</li>
+                                  </ul>
+                              </div>
+                              <a href="plan.html#2" class="btn border-btn">详	情</a>
+                       </div>
+                  </div>  
+                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="300">
+                      <div class="price-pack-features text-center clearfix">
+                          <div class="package-header-features"><h3>森林防火</h3></div>
+                             <div class="package-price">3900<p>永久</p></div>
+                              <div class="package-features clearfix">
+                                  <ul>
+                                      <li>1.效率高，支持自主巡检</li>
+                                      <li>2.使用成本较低</li>
+                                      <li>3.携带方便，操作简单</li>
+                                      <li>4.在雨雪天气仍可执行巡线任务</li>
+                                      <li>5.安全性高</li>
+                                      <li>6.性价比高</li>
+                                  </ul>
+                              </div>
+                              <a href="plan.html#3" class="btn border-btn-features">详	情</a>
+                       </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="400">
+                      <div class="price-pack text-center clearfix">
+                          <div class="package-header"><h3>反恐维稳</h3></div>
+                             <div class="package-price">3900<p>永久</p></div>
+                              <div class="package-features clearfix">
+                                  <ul>
+                                      <li>1.效率高，支持自主巡检</li>
+                                      <li>2.使用成本较低</li>
+                                      <li>3.携带方便，操作简单</li>
+                                      <li>4.在雨雪天气仍可执行巡线任务</li>
+                                      <li>5.安全性高</li>
+                                      <li>6.性价比高</li>
+                                  </ul>
+                              </div>
+                              <a href="plan.html#4" class="btn border-btn">详	情</a>
+                       </div>
+                  </div>                                                        
+              </div>
 			</div>
-			</div>
-			</div><!-- End inner div -->
-			
 	</section>
-	<!--/关于我们-->
-	
+	<!--/解决方案-->	
 	<!--数据服务-->
 	<section id="services" class="contain nav-link">
 			<div class="inner services">
@@ -313,201 +322,80 @@
        </div>
 			</div>
 	</section>
-	<!--/数据服务-->
-	
-	<!--解决方法-->
-	<section id="prices" class="contain nav-link">
-		
-			<div class="inner prices">
-				<div class="contain-logo br">
-					<i class="fa fa-chevron-down"></i>
-				</div>
-			
-				<!-- Header -->
+	<!--/数据服务-->	
+	<!--关于我们-->
+	<section id="about" class="contain nav-link">
+		<div class="contain-logo br">
+			<i class="fa fa-chevron-down"></i>
+		</div>
+		<div class="about inner">
 				<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
-					解决方法
+					关于我们
 				</div>
 				
 				<!-- Second Header -->
 				<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
-					我们根据以往的定制开发经验，现已整理出如下的解决方案，正在出出售中，若有意向可致电我公司详谈，我们会以最物美价廉的价格予以出售，坚决不让你多花一分钱，让你花最少的钱，办最多的事情。 
+					兰州瀚祥电子信息工程技术有限公司（简称瀚祥智能）成立于2012年，是从事无人机软、硬件系统研发的高新技术企业，面向全国提供行业无人机智能飞行与控制解决方案。公司自主研发的无人机地面站远程控制系统及其系列软件是具有国家软件著作权的高新技术产品。
+ 
 				</div>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="0">
+								<div class="bubble_outer_one">
+									<div class="bubble_container">
+										<div class="bubble"></div>
+										<i class="fa fa-thumbs-up"></i>
+									</div>
+								</div>
+								<div class="about_line"></div>
+								<article class='about_article'>
+									<h2>超赞的团队</h2>
+									<p class="about_article_title">在张文渊率领的一批专业技术软件开发人员从事大疆无人机的飞控软件开发，立志做无人行业飞控软件开发领域的实践者与开拓者，为无人机领域贡献自己的一份力量。</p>
+								</article>
+							</div>
+							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="500">
+								<div class="bubble_outer_two">
+									<div class="bubble_container">
+										<div class="bubble"></div>
+										<i class="fa fa-envelope fa-light"></i>
+									</div>
+								</div>
+								<div class="about_line"></div>
+								<article class='about_article'>
+									<h2>定制的服务</h2>
+									<p class="about_article_title">我们接受专业的定制服务，只要你有需求，我们就会去实现，以你的想法为准则，以我们的技术为基础，为你我的共同理想保驾护航，共创美好明天。</p>
+								</article>
+							</div>
+							<div class="col-lg-4 col-md-4 animated" data-animation="tada" data-animation-delay="800">
+								<div class="bubble_outer_three">
+									<div class="bubble_container">
+										<div class="bubble"></div>
+										<i class="fa fa-umbrella"></i>
+									</div>
+								</div>
+								<div class="about_line"></div>
+								<article class='about_article'>
+									<h2>完美的售后</h2>
+									<p class="about_article_title">我们对于自己负责，更对与我们的客户负责，我们售出的每一份产品我们都会为你保驾护航，负责终身，让你买的放心，用的放心，从而解决你的任何后顾之忧。</p>
+								</article>
+							</div>
+						</div>
+					
 				
-				<div class="row">
-                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="100">
-                      <div class="price-pack text-center clearfix">
-                          <div class="package-header"><h3>森林防火</h3></div>
-                             <div class="package-price">2000<p>永久</p></div>
-                              <div class="package-features clearfix">
-                                  <ul>
-                                      <li>1.效率高，支持自主巡检</li>
-                                      <li>2.使用成本较低</li>
-                                      <li>3.携带方便，操作简单</li>
-                                      <li>4.在雨雪天气仍可执行巡线任务</li>
-                                      <li>5.安全性高</li>
-                                      <li>6.性价比高</li>
-                                  </ul>
-                              </div>
-                              <a href="#" class="btn border-btn">详	情</a>
-                       </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="200">
-                      <div class="price-pack text-center clearfix">
-                          <div class="package-header"><h3>农业植保</h3></div>
-                             <div class="package-price">3500<p>永久</p></div>
-                              <div class="package-features clearfix">
-                                  <ul>
-                                      <li>1.效率高，支持自主巡检</li>
-                                      <li>2.使用成本较低</li>
-                                      <li>3.携带方便，操作简单</li>
-                                      <li>4.在雨雪天气仍可执行巡线任务</li>
-                                      <li>5.安全性高</li>
-                                      <li>6.性价比高</li>
-                                  </ul>
-                              </div>
-                              <a href="#" class="btn border-btn">详	情</a>
-                       </div>
-                  </div>  
-                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="300">
-                      <div class="price-pack-features text-center clearfix">
-                          <div class="package-header-features"><h3>电力巡线</h3></div>
-                             <div class="package-price">3900<p>永久</p></div>
-                              <div class="package-features clearfix">
-                                  <ul>
-                                      <li>1.效率高，支持自主巡检</li>
-                                      <li>2.使用成本较低</li>
-                                      <li>3.携带方便，操作简单</li>
-                                      <li>4.在雨雪天气仍可执行巡线任务</li>
-                                      <li>5.安全性高</li>
-                                      <li>6.性价比高</li>
-                                  </ul>
-                              </div>
-                              <a href="#" class="btn border-btn-features">详	情</a>
-                       </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6 animated" data-animation="fadeInUp" data-animation-delay="400">
-                      <div class="price-pack text-center clearfix">
-                          <div class="package-header"><h3>反恐维稳</h3></div>
-                             <div class="package-price">3900<p>永久</p></div>
-                              <div class="package-features clearfix">
-                                  <ul>
-                                      <li>1.效率高，支持自主巡检</li>
-                                      <li>2.使用成本较低</li>
-                                      <li>3.携带方便，操作简单</li>
-                                      <li>4.在雨雪天气仍可执行巡线任务</li>
-                                      <li>5.安全性高</li>
-                                      <li>6.性价比高</li>
-                                  </ul>
-                              </div>
-                              <a href="#" class="btn border-btn">详	情</a>
-                       </div>
-                  </div>                                                        
-              </div>
+				<div class="clear"></div>		
+			</div>
+			<div class="container">
+				<div class="text-center">
+					<a href="about.html"><span class="fa fa-hand-o-right" style="color: #fa610f;;"></span>	更多	</a>
+				</div>
 			</div>
 	</section>
-	<!--/解决方案-->
+	<!--/关于我们-->
 	
-		
-	<!--无人机找回-->
-	<section id="gmap" class="contain nav-link">
-			<div class="inner services">
-				<div class="contain-logo br">
-					<i class="fa fa-chevron-down"></i>
-				</div>
-			
-				<!-- Header -->
-				<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
-					无人机找回
-				</div>
-				
-				<!-- Second Header -->
-				<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
-					我们拥有最先进的无人机跟踪平台，精准范围为5M以内，可以为你实时监视的无人机，为你的无人机保驾护航，让你无后顾之忧的畅想蓝天，为你的飞行保驾护航。 
-				</div>
-				<!--无人机找回详情-->	
-				<div class="container">
-					<div class="row">
-						<a href="#" class="thumbnail">
-					      <img src="images/gmap.png"/>
-					    </a>
-					</div>
-				</div>
-				<div class="clearfix"></div>
-			</div>								
-	</section>
-	<!--/无人机找回-->
-	
-	
-	<!--联系我们-->
-	<section id="contact" class="contain nav-link">
-				<div class="contain-logo br">
-					<i class="fa fa-chevron-down"></i>
-				</div>
-			
-				<!-- Header -->
-				<div class="header animated" data-animation="slideInRight" data-animation-delay="0">
-					联系我们
-				</div>
-				
-				<!-- Second Header -->
-				<div class="description animated" data-animation="slideInLeft" data-animation-delay="0">
-					为了我们更好的成长，为了我们更好的发展，请你留下你宝贵的意见，促使我们成长，促使我们进步，让我们做出更好的产品，为你服务，为大家服务，为我国无人机飞控软件的事业奉献自己的一份力量。 
-				</div>           
-	             <!-- col-md-8 col-sm-8 col-xs-12 -->
-                <div class="col-md-8 col-sm-8 col-xs-12 animated" data-animation="rollIn" data-animation-delay="0">
-				<div class="contact-form">
-							<form id="contact-form" action="contact.php" method="post" class="contact-form1">
-							<div class="row">
-								<div class="col-sm-6">
-						<input name="name" type="text" placeholder="请输入你的姓名......" required />
-								</div>
-								<div class="col-sm-6">
-									<input name="email" type="email" placeholder="请输入你的邮件地址......" required />
-								</div>
-							</div>
-								
-							<textarea name="message" rows="8" cols="40" placeholder="请留下你的宝贵意见......" required></textarea>
- 
-							<input name="send" class="btn-c" type="submit" value="SEND" />
 
-						</form>
-							<div id="response"></div>
-</div>
-                    
-                </div>
-                <!-- /col-md-8 col-sm-8 col-xs-12 -->
-                
-                <!-- /col-md-4 col-sm-4 col-xs-12 -->
-                <div class="col-md-4 col-sm-4 col-xs-12 animated" data-animation="rollIn" data-animation-delay="200">
-                
-                    <div class="contact-widget">
-                    
-                        <i class="fa fa-home"></i>
-                        <p>
-                        	<span class="span_info">兰州市城关区民主西路蓝宝石大厦16-I</span>
-                        </p>
-                        <div class="clearfix"></div>
-                        <i class="fa fa-phone"></i>
-                        <p><span class="span_info">电话: +193 4656 2356</span><br>
-                        <span class="span_info">传真: +0931 339 1249</span> </p>
-                        <div class="clearfix"></div>
-                        <i class="fa fa-envelope"></i>
-                        <p>
-                        	<span class="span_info">Email: zl@163.com </span><br> 
-                        	<span class="span_info">www.wrjdmz.com</span>
-                        </p>
-                        <div class="clearfix"></div>
-                        
-                    </div>
-                
-                </div>
-                <!-- /col-md-4 col-sm-4 col-xs-12 -->
-            
-            <div class="clear"></div>
-			
-	</section><!-- End Contact Section -->
-	<div class="clear"></div>
-	<!-- Footer Section -->
+	
+
+	
+	<!--脚注部分-->
 	<section id="footer">
 	
 		<div class="inner footer">
@@ -524,12 +412,11 @@
 		</div> <!-- End Footer inner -->
 		
 	</section>
-	<!--联系我们-->
+	<!--脚注部分-->
 	
-	<!-- JavaScript Files -->
-	
+	<!--js引入-->
 	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" src="js/jquery.appear.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
