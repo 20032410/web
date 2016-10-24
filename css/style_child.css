@@ -1,0 +1,11 @@
+#about-our, #product, #plan{
+	margin: 10px 0 30px 0;
+	font-family: Microsoft Yahei,"Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-size: 16px;
+}
+
+#about-our h3,#product h3,#plan h3{
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+	font-weight: 600;
+}
